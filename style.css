@@ -1,60 +1,35 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 .container {
-    width: 80%;
+    max-width: 800px;
     margin: auto;
-    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    background: #1f4e9f;
-    color: #FFF;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom:  3px solid;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    text-align: center;
     margin: 0;
+    font-size: 2.5em;
+    color: #333;
 }
 
-header nav {
-    text-align: center;
-    margin-top: 10px;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    padding: 0 20px;
-}
-
-header nav ul li a {
-    color: #CDD3D5;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    
-}
-
-
-header nav ul li a:hover {
-    color: #77CBB9;
-  
-}
-
-main {
-    padding: 20px 0;
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #666;
 }
 
 section {
@@ -62,49 +37,36 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #77CBB9;
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #333;
     padding-bottom: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 ul li {
-    background: #DDD;
-    margin-bottom: 10px;
-    padding: 15px;
-    border: #ddd 1px solid;
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-ul li strong {
-    display: block;
-    margin-bottom: 5px;
+.school {
+    margin-bottom: 20px;
 }
 
-ul li a {
-    color: #75B8C8;
-    text-decoration: none;
+.school h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
 }
 
-ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin: 0;
-        padding: 10px 0;
-    }
+.school p {
+    margin: 5px 0;
+    color: #666;
 }
